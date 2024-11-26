@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Youren Store - Toko online untuk menjual produk konsumen dengan fitur keranjang belanja, FAQ, dan layanan pelanggan.">
+    <meta name="keywords" content="toko online, produk konsumen, keranjang belanja, Youren Store">
+    <meta name="author" content="Youren Store Team">
+    <title>Youren Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Our Store</h1>
+        <p><em>Youren Store adalah toko online yang menyediakan berbagai produk konsumen dengan fitur belanja
+                mudah.</em></p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cart.html">Keranjang</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Hubungi Kami</a>
+            <a href="terms.html">Syarat & Ketentuan</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Produk Kami</h2>
+        <p><strong>Domain Aplikasi:</strong> Platform toko online untuk konsumen dengan fokus pada penjualan produk dan
+            kemudahan transaksi digital.</p>
+        <div class="product">
+            <img src="images/product1.jpg" alt="Produk 1">
+            <div class="product-info">
+                <h3>Produk 1</h3>
+                <p>Harga: Rp100.000</p>
+                <button onclick="addToCart('Produk 1', 100000)">Tambah ke Keranjang</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="images/product2.jpg" alt="Produk 2">
+            <div class="product-info">
+                <h3>Produk 2</h3>
+                <p>Harga: Rp200.000</p>
+                <button onclick="addToCart('Produk 2', 200000)">Tambah ke Keranjang</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Youren Store. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
